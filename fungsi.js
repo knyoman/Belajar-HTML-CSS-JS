@@ -13,3 +13,6 @@ console.log(divide(4,2));
 
 
 console.log(add(5,5));
+
+const mathsin = (number) => Math.sin(number);
+console.log(mathsin(10));
