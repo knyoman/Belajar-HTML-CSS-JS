@@ -1,0 +1,174 @@
+<!-- Latihan HTML yt:WPU -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+</head>
+
+<body>
+    <!-- tag p, br, hr, b, u, i, strong, em -->
+    <hr>
+    <p id="paragraf1">ini paragraf 1</p>
+    <p><a href="#link">kembali kebagian link</a></p>
+    <br>
+    <p>ini <br>paragraf 2</p>
+    <p><b><u><i>selamat datang diwebsite saya</i></u></b></p>
+    <p>
+        <u>nama </u><br>
+        <i> saya</i><br>
+        <b> nyoman kusuma</b>
+    </p>
+    <p>
+        <strong>pengumuman</strong>, besok kuliah<em> Libur!</em>
+    </p>
+    <hr>
+    <!-- Heading 1-6 -->
+    <h1>texts</h1>
+    <h2>texts</h2>
+    <h3>texts</h3>
+    <h4>texts</h4>
+    <h5>texts</h5>
+    <h6>texts</h6>
+    <p><b><i>contoh:</i></b></p>
+    <h1>judul artikel</h1>
+    <p>isi artikel</p>
+    <h2>sub judul</h2>
+    <P>sub body artikel</P>
+    <hr>
+
+    <!-- list ol,ul,dl -->
+    <h3>aktifitas</h3>
+    <ol>
+        <li>bangun tidur</li>
+        <li>makan</li>
+        <li>tidur lagi</li>
+    </ol>
+    <ol>
+        <li>bangun tidur</li>
+        <li>makan</li>
+        <li>tidur lagi</li>
+    </ol>
+    <ul>
+        <li>nasi goreng</li>
+        <li>telur goreng</li>
+    </ul>
+    <ul type="square">
+        <li>nasi goreng</li>
+        <li>telur goreng</li>
+    </ul>
+    <h2>pemprograman</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Languae</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+        <hr>
+
+        <!-- hyperlink -->
+        <p id="link">klik<a href="https://www.instagram.com/nyoman_kusuma.21/" target="_blank"> disini</a> untuk
+            menginjungi Ig saya</p>
+        <br>
+        <h1>ini latihan 2</h1>
+        <a href="latihan1.html">kembali kehalaman 1</a>
+        <p><a href="#paragraf1">ke paragraf 1</a></p>
+    </dl>
+    <hr>
+    <br>
+    <!-- image & linknya -->
+    <img src="image/IMG_20230104_032828_mr1672777844129.jpg" alt="logo ff" title="logo ff" width="200" height="200">
+
+    <img src="image/IMG_20230104_032828_mr1672777844129.jpg" alt="logo ff" title="logo ff" width="50%">
+
+    <a href="https://www.instagram.com/nyoman_kusuma.21/"> <img src="image/download.jpg" alt="instagram" width="100"
+            height="150"></a>
+    <br>
+    <hr>
+
+    <!-- tabel -->
+
+    <table border="1" cellspacing="1" cellpadding="2">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2, kolom 1</td>
+            <td>baris 2, kolom 2</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <tr>
+            <td>text 1</td>
+            <td colspan="2">text 2</td>
+
+        </tr>
+        <tr>
+            <td>text 1</td>
+            <td>text 2</td>
+            <td>text 3</td>
+
+        </tr>
+        <tr>
+            <td>text 1</td>
+            <td>text 2</td>
+            <td>text 3</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <tr>
+            <td rowspan="3"> text 1</td>
+            <td colspan="3">text 2&3</td>
+
+        </tr>
+        <tr>
+            <td>text 2</td>
+            <td>text 3</td>
+
+        </tr>
+        <tr>
+            <td>text 2</td>
+            <td>text 3</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <!-- form -->
+    <form>
+        <label for="username">username : </label>
+        <input type="text" placeholder="masukan nama" id="username">
+        <br>
+        <label for="password">password : </label>
+        <input type="text" placeholder="password" id="password">
+        <br>
+        <label>jenis kelamin: </label><input type="radio" id="pria" name="jenis kelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jenis kelamin"><label for="wanita">wanita</label>
+        <br>
+        <label>alamat: </label><select>
+            <option>oki</option>
+            <option>oku</option>
+            <option>oi</option>
+        </select>
+        <br>
+        <label>hobi: </label><input type="checkbox" id="makn" for="makan"><label>makan</label>
+        <input type="checkbox" id="catur" for="catur"><label>catur</label>
+        <input type="checkbox" id="membaca" for="membaca"><label>membaca</label>
+        <br>
+        <input type="submit" value="kirim!">
+        <br>
+        <textarea name="comentar" id="comentar" placeholder="comentar"></textarea>
+        <br>
+        <button type="submit">kirim</button>
+        <br>
+
+    </form>
+
+</body>
+
+</html>
